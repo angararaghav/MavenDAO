@@ -10,15 +10,13 @@
 </head>
 <body>
 	<h2>Hello World!</h2>
-	
+
 	<form action="GetEmployee">
-			<p>
-				<input type="text" name="empid" value="" placeholder="employee number">
-			</p>
-			<p class="submit">
-				<input type="submit"  value="Get Employee Info">
-			</p>
-	
+
+		<input type="text" name="empid" value="" placeholder="employee number">
+
+		<input type="submit" value="Get Employee Info">
+
 	</form>
 </body>
 </html>
